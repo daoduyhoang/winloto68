@@ -1,0 +1,103 @@
+@import '@/style/variable';
+@import '@/style/color';
+@import "@/style/typography";
+
+.c_loginForm {
+  text-align: left;
+  .d_item{
+    .ant-form-item-children{
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  .ant-collapse-header {
+    color: #000 !important;
+  }
+  .d_btn {
+    width: 100%;
+    border-radius: 0;
+    border-color: black;
+    font-size: 24px;
+    color: white;
+    background-color: $bg_obsidian;
+  }
+  .ant-form-item {
+    text-align: center;
+    .d_btn_join {
+        width: 180px;
+        height: 38px;
+        border: 1px solid #E74453;
+        color: #fff;
+        font-size: 18px;
+        border-radius: 20px;
+        background: linear-gradient(103.26deg, #FF992E 7.2%, #F88138 26.74%, #E74453 63.27%, #DA1467 94.43%);
+    }
+  }
+  .ant-tabs-tab-active .ant-tabs-tab {
+    padding-left: 0;
+  }
+  .login-form-forgot {
+    text-decoration: underline;
+  }
+  .kep-login-facebook {
+    height: 50px;
+    width: 150px;
+    @media only screen and (max-width: $mobile-width) {
+      width: 130px;
+    }
+    text-transform: none;
+    font-weight: normal;
+    padding-top: 5px;
+
+    .anticon-facebook {
+      margin-left: -10px;
+      margin-top: 6px;
+    }
+
+    .facebook-text {
+      margin-left: 10px;
+    }
+  }
+
+  .ant-divider-inner-text {
+    color: #fff !important;
+  }
+
+  .google-button {
+    height: 50px;
+    border-radius: 0px;
+    width: 150px;
+    @media only screen and (max-width: $mobile-width) {
+      width: 120px;
+    }
+
+    div {
+      padding: 0 !important;
+      padding-left: 30px !important;
+      margin-top: -2px !important;
+      @media only screen and (max-width: $mobile-width) {
+        padding-left: 16px !important;
+      }
+    }
+
+    span {
+      padding: 10px 10px 10px 0px !important;
+    }
+  }
+}
+
+.register-login {
+  top: 60px !important;
+
+  .checkbox {
+    color: #787E9E;
+  }
+
+  .login-form-forgot {
+    color: #787E9E;
+  }
+
+  .ant-modal-close-x {
+    color: #787E9E;
+  }
+}

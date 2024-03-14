@@ -1,0 +1,78 @@
+
+@import "../../../style/variable";
+@import "../../../style/color";
+
+.d_rowFooter {
+  padding-bottom: $gap_2;
+}
+
+.d_rowGrey {
+  background-color: rgb(229, 229, 229);
+}
+
+.c_Footer {
+  position: relative;
+
+  font-size: 13px;
+  font-weight: 300;
+
+  text-align: left;
+
+  line-height: 1;
+  .logo-bottom {
+    @media only screen and (max-width: $mobile-width) {
+      margin: 0 auto;
+      text-align: center;
+    }
+  }
+  .logo_own {
+    width: 165px;
+  }
+
+  .footer-box {
+    max-width: $main_width;
+    margin: 0 auto;
+  }
+
+  .footer-vertical-section {
+
+    margin-top: 8px;
+
+    .title {
+      margin-bottom: 10px;
+      color: #DADADA;
+    }
+
+    .ant-avatar {
+      background-color: transparent;
+    }
+  }
+
+  .social-icons > a {
+    color: #fff !important;
+    display: inline-block;
+    padding: 0 $gap_2 $gap_2 0;
+  }
+
+  .join {
+    padding-left: 24px;
+  }
+
+  .footer-color-dark {
+    margin-top: 8px;
+    color: #fff;
+
+    > a {
+      color: $cr_light_color;
+    }
+  }
+
+  .contact-container .footer-color-dark > a {
+    text-decoration: underline;
+  }
+  .title-big {
+    font-size: 14px;
+    font-weight: 600;
+    color: #DADADA;
+  }
+}

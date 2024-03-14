@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Bitcoin testnet",
+        "symbol": "BTC TEST",
+        "ciSymbol": "BTC-TEST",
+        "apiSymbol": "BTCTEST",
+        "faucetUrl": "https://testnet-faucet.mempool.co/"
+    },
+    {
+        "name": "Bitcoin mainnet",
+        "symbol": "BTC",
+        "ciSymbol": "BTC",
+        "apiSymbol": "BTC"
+    },
+
+    {
+        "name": "Litecoin mainnet",
+        "symbol": "LTC",
+        "ciSymbol": "LTC",
+        "apiSymbol": "LTC"
+    },
+    {
+        "name": "Litecoin testnet",
+        "symbol": "LTC TEST",
+        "ciSymbol": "LTC-TEST",
+        "apiSymbol": "LTCTEST",
+        "faucetUrl": "https://faucet.xblau.com/"
+    },
+
+    {
+        "name": "Zcash mainnet",
+        "symbol": "ZEC",
+        "ciSymbol": "ZEC",
+        "apiSymbol": "ZEC",
+        "faucetUrl": ""
+    },
+    {
+        "name": "Zcash testnet",
+        "symbol": "ZEC TEST",
+        "ciSymbol": "ZEC-TEST",
+        "apiSymbol": "ZECTEST",
+        "faucetUrl": "https://faucet.testnet.z.cash/"
+    },
+
+    {
+        "name": "Dash mainnet",
+        "symbol": "DASH",
+        "ciSymbol": "DASH",
+        "apiSymbol": "DASH",
+        "faucetUrl": ""
+    },
+    {
+        "name": "Dash testnet",
+        "symbol": "DASH TEST",
+        "ciSymbol": "DASH-TEST",
+        "apiSymbol": "DASHTEST",
+        "faucetUrl": "http://faucet.test.dash.crowdnode.io/"
+    },
+
+    {
+        "name": "Doge mainnet",
+        "symbol": "DOGE",
+        "ciSymbol": "DOGE",
+        "apiSymbol": "DOGE",
+        "faucetUrl": ""
+    },
+    {
+        "name": "Doge testnet",
+        "symbol": "DOGE TEST",
+        "ciSymbol": "DOGE-TEST",
+        "apiSymbol": "DOGETEST",
+        "faucetUrl": ""
+    }
+]

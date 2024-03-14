@@ -1,0 +1,73 @@
+@import "../../../style/variable";
+@import "../../../style/color";
+
+$color_background: #F6F9FD;
+
+.c_Payment {
+  position: relative;
+
+  .section-top {
+
+    .heading {
+      max-width: $main_width;
+      margin: 0 auto;
+      text-align: center;
+      padding-top: 66px;
+      padding-bottom: 30px;
+
+      h1 {
+        font-size: 32px;
+        font-weight: 500;
+      }
+    }
+  }
+  .section-doc {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 10px;
+
+    .title-size-large {
+      margin-bottom: -10px;
+      padding: 12px 0px;
+      font-size: 22px;
+    }
+
+    .title-size-medium {
+      margin-bottom: -10px;
+      padding: 12px 0px;
+      font-size: 18px;
+    }
+
+    .title-size-small {
+      margin-bottom: -10px;
+      padding: 12px 0px;
+      font-size: 16px;
+    }
+
+    p {
+      padding: 5px 12px;
+    }
+
+    pre {
+      padding: 10px 15px;
+      border: 1px solid #e7eaf3;
+      background-color: #f8f9fa;
+      border-radius: .25rem;
+      margin: 5px 12px;
+      font-size: 87.5%;
+      color: #1e2022;
+      font-family: SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
+    }
+    .text-break-all {
+      word-break: break-all;
+      white-space: normal;
+    }
+  }
+}
+.text-center {
+  text-align: center;
+}
+.font-size-26 {
+  font-size: 26px;
+}

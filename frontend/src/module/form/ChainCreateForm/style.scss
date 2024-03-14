@@ -1,0 +1,14 @@
+
+@import "../../../style/variable";
+
+.c_taskCreateFormContainer {
+    max-width: 800px;
+    margin: 0 auto;
+
+  .midLabel {
+    white-space: nowrap;
+    padding: 0 $gap_1;
+    text-align: right;
+  }
+
+}

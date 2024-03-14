@@ -1,0 +1,8 @@
+[
+    {
+        "name": "Bitcoin testnet",
+        "symbol": "BTC TEST",
+        "ciSymbol": "BTC-TEST",
+        "apiSymbol": "BTCTEST"
+    }
+]

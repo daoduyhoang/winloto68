@@ -1,0 +1,164 @@
+@import "../../../style/variable";
+@import "../../../style/color";
+
+$color_background: #F6F9FD;
+
+.c_Home {
+  position: relative;
+
+  .section-top {
+    padding-top: 60px;
+
+    .heading {
+      max-width: 1000px;
+      margin: 0 auto;
+      text-align: center;
+      padding-top: 66px;
+      padding-bottom: 100px;
+      height: 530px;
+      background-repeat: no-repeat;
+      background-image: url(/assets/images/map.png);
+
+      h1 {
+        font-size: 36px;
+        font-weight: 500;
+        color: #D6D5D5;
+      }
+
+      h2 {
+        font-size: 16px;
+        text-align: center;
+        max-width: 600px;
+        margin: 0 auto;
+        margin-top: -30px;
+        color: #D6D5D5;
+      }
+
+      .btn-getting-started {
+        background: transparent;
+        border: 1px solid #F88138;
+        height: 38px;
+        font-size: 20px;
+        color: #F88138;
+        border-radius: 5px;
+        padding: 0 50px;
+        font-weight: 600;
+      }
+    }
+
+    .feature-pages {
+      max-width: $main_width;
+      margin: 0 auto;
+      margin-top: 20px;
+
+      .title {
+        font-size: 20px;
+        color: #fff;
+        line-height: 40px;
+      }
+    }
+  }
+  .section-features {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-top: 1px solid #404040;
+
+    .ant-card-cover {
+      min-height: 100px;
+      .icon-feature {
+        width: 80px;
+        margin: 0 auto;
+      }
+    }
+  }
+  .section-supported {
+    .container {
+      border-top: 1px solid #404040;
+      max-width: 1000px;
+      margin: 0 auto;
+      margin-top: 30px;
+      padding-bottom: 50px;
+      padding-top: 15px;
+
+      .ant-card-cover {
+        .icon-feature {
+          width: 80px;
+          margin: 0 auto;
+        }
+      }
+      .ant-card {
+        background: transparent;
+        .ant-card-body {
+          padding: 0px;
+        }
+      }
+      .support-name {
+        color: #787E9E;
+        font-size: 26px;
+      }
+    }
+  }
+  .section-plugins {
+    .container {
+      max-width: 1000px;
+      border-top: 1px solid #404040;
+      margin: 0 auto;
+      padding-bottom: 50px;
+      padding-top: 15px;
+
+      .ant-card-cover {
+        .icon-card {
+          width: 38px;
+          margin: 0 auto;
+        }
+      }
+      .ant-card {
+        background: transparent;
+        .ant-card-body {
+          padding: 0px;
+        }
+      }
+
+      .plugins {
+        max-width: 350px;
+      }
+
+      .image-plugin {
+        max-width: 380px;
+        width: 100%;
+      }
+
+      .plugins-des {
+        color: #787E9E;
+        font-size: 16px;
+      }
+      .plugins-name {
+        color: #787E9E;
+      }
+    }
+  }
+}
+.ant-card {
+  background: transparent !important;
+
+  .item-title {
+    color: #E74453;
+    font-weight: 600;
+  }
+  .item-des {
+    color: #787E9E;
+    font-size: 16px;
+  }
+}
+.header-line {
+  max-width: 300px;
+  margin: 25px auto;
+}
+.text-center {
+  text-align: center;
+}
+.font-size-26 {
+  font-size: 26px;
+  color: #DADADA;
+}

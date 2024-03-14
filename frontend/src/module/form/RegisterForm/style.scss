@@ -1,0 +1,76 @@
+@import '@/style/variable';
+@import '@/style/color';
+
+
+.c_registerContainer {
+  margin-top: 0 !important;
+  text-align: center;
+
+  .d_registerForm {
+    .code-sent-text {
+      color: #fff;
+
+      .code-email {
+        font-weight: bold;
+        display: block;
+      }
+    }
+  }
+  .d_item {
+    .ant-form-item-children {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  .register-successs-title {
+    color: #d6d6d8;
+    font-size: 16px;
+  }
+  .private-key {
+    color: #d6d6d8;
+    line-height: 25px;
+  }
+  .d_btn {
+    width: 100%;
+    border-radius: 0;
+    border-color: black;
+    font-size: 24px;
+    color: white;
+    background-color: $bg_obsidian;
+  }
+  .ant-form-item {
+    text-align: center;
+    .d_btn_join {
+      width: 180px;
+      height: 38px;
+      border: 1px solid #E74453;
+      color: #fff;
+      font-size: 18px;
+      border-radius: 20px;
+      background: linear-gradient(103.26deg, #FF992E 7.2%, #F88138 26.74%, #E74453 63.27%, #DA1467 94.43%);
+    }
+  }
+
+  .kep-login-facebook {
+    height: 50px;
+    text-transform: none;
+    font-weight: normal;
+    padding-top: 5px;
+  }
+
+  .google-button {
+    height: 50px;
+
+    div {
+      padding: 0 !important;
+      padding-left: 10px !important;
+    }
+  }
+
+  @media only screen and (max-width: $mobile-width) {
+    .citizen-title {
+      font-size: 6vw;
+      line-height: 6vw;
+    }
+  }
+}

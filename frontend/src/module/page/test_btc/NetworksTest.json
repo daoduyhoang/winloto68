@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Bitcoin testnet",
+        "symbol": "BTC TEST",
+        "ciSymbol": "BTC-TEST",
+        "apiSymbol": "BTCTEST",
+        "faucetUrl": "https://testnet-faucet.mempool.co/"
+    },
+    {
+        "name": "Litecoin testnet",
+        "symbol": "LTC TEST",
+        "ciSymbol": "LTC-TEST",
+        "apiSymbol": "LTCTEST",
+        "faucetUrl": "https://faucet.xblau.com/"
+    },
+    {
+        "name": "Zcash testnet",
+        "symbol": "ZEC TEST",
+        "ciSymbol": "ZEC-TEST",
+        "apiSymbol": "ZECTEST",
+        "faucetUrl": "https://faucet.testnet.z.cash/"
+    },
+    {
+        "name": "Dash testnet",
+        "symbol": "DASH TEST",
+        "ciSymbol": "DASH-TEST",
+        "apiSymbol": "DASHTEST",
+        "faucetUrl": "http://faucet.test.dash.crowdnode.io/"
+    },
+    {
+        "name": "Doge testnet",
+        "symbol": "DOGE TEST",
+        "ciSymbol": "DOGE-TEST",
+        "apiSymbol": "DOGETEST",
+        "faucetUrl": ""
+    }
+]

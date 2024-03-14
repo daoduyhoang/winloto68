@@ -1,0 +1,236 @@
+@import "../../../style/variable";
+@import "../../../style/color";
+
+.c_Header {
+  font-family: "Poppins";
+  .top-level {
+    background: rgba(2,14,26,.1);
+    font-size: .8rem;
+    margin-bottom: 0!important;
+    padding: 5px 0;
+    display: flex;
+    height: 30px;
+
+    .level-item {
+      align-items: center;
+      display: flex;
+      flex-basis: auto;
+      flex-grow: 1;
+      flex-shrink: 0;
+      justify-content: center;
+      padding-bottom: 0px;
+      color: #fff;
+    }
+  }
+
+  .header_wrap {
+    max-width: $main_width;
+    margin: 16px auto;
+  }
+
+  .ant-menu-item {
+    .anticon {
+      margin-right: 0px !important;
+    }
+  }
+  .fill-profile-toast {
+    background: $cr_dark_color;
+    color: $primary_color;
+    height: $gap_3;
+    line-height: $gap_3;
+    text-align: center;
+  }
+
+  .ant-menu-item.logo {
+    &:hover {
+      border-bottom: none;
+    }
+  }
+
+  .c_SubMenuItem {
+    > .ant-menu-submenu-title {
+      padding: 0;
+    }
+  }
+
+  .toast-close-container {
+    margin-right: $gap_1;
+    font-size: 16px;
+  }
+
+  .language-dropdown {
+    &:not(.mobile) {
+    }
+
+    .ant-select-selection {
+      border: none;
+      box-shadow: none;
+    }
+
+    .ant-select-arrow {
+      display: none;
+    }
+
+    .ant-dropdown-link {
+      padding-left: 11px;
+      padding-right: 11px;
+    }
+
+  }
+
+  .anticon-menu-fold {
+    color: #fff;
+  }
+
+  .ant-dropdown-link {
+    &:hover svg path {
+      fill: #43AF92;
+    }
+
+    svg {
+      vertical-align: middle;
+    }
+  }
+
+  .c_MenuItem {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .ant-menu-item-selected {
+    background-color: unset !important;
+  }
+
+  .language-us {
+    position: absolute;
+    top: 4.5px;
+  }
+
+  .popover_noti {
+
+    @media only screen and (max-width: $mobile-width) {
+      margin-top: 2px;
+      padding: 0px 0px;
+      margin-right: 12px;
+    }
+  }
+
+  .noti_item {
+    color: blue !important;
+  }
+
+  .ant-list-item-content {
+    a {
+      color: blue;
+    }
+  }
+
+  .create-journey {
+    color: #c10960;
+
+     @media only screen and (max-width: $mobile-width) {
+      margin-right: 10px;
+      border-radius: 20px;
+    }
+  }
+}
+
+.language-menu {
+  width: 140px;
+  max-height: 196px;
+  overflow: auto;
+
+  background: #FFFFFF;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+
+  .language-us {
+    width: 51px;
+    height: 17px;
+
+    padding-left: 5px;
+    color: #000000;
+    font-family: Synthese;
+    line-height: normal;
+    font-size: 14px;
+    font-weight: 200;
+  }
+
+  .language-cn {
+    width: 49px;
+    height: 21px;
+
+    padding-left: 5px;
+    color: #000000;
+    font-family: Microsoft YaHei;
+    line-height: normal;
+    font-size: 11px;
+  }
+}
+
+.ant-popover-inner-content {
+  max-width: 350px !important;
+  max-height: 330px !important;
+  overflow: auto !important;
+
+  @media only screen and (max-width: $mobile-width) {
+    max-width: 250px !important;
+  }
+}
+
+.badge-box {
+  position: relative;
+
+  .badge-count {
+    position: absolute;
+    top: -13px;
+    right: -10px;
+    width: 26px;
+    height: 20px;
+    background: #fff;
+    border-radius: 50%;
+    color: red;
+    padding-top: 3px;
+  }
+}
+
+.register-login {
+    .ant-modal-body::before {
+        background-image: url(/assets/images/bg-login.jpg);
+        content: ' ';
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        opacity: 1;
+        background-size: 100%;
+        transform: rotateZ(0deg);
+    }
+
+    max-width: 580px !important;
+
+    .ant-modal-content {
+      background: radial-gradient(651.50px at 50% 4.17%, #2B3047 0%, #25293F 0%, #0F0F23 100%);
+      border-radius: 20px;
+
+      .ant-tabs-nav .ant-tabs-tab-active {
+        color: #d6d6d8;
+      }
+
+      .ant-tabs {
+        color: $color_gray;
+      }
+
+      .ant-modal-body {
+        background: transparent;
+
+        .ant-input {
+          background-color: transparent !important;
+          border-radius: 20px;
+          color: #fff;
+        }
+      }
+    }
+}
